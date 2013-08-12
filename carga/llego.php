@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Envio de Correo Hacienda las  Marias</title>
+        <title>Envio de Correo campoalegre</title>
 		<link href="../css/style.css" rel="stylesheet">	
 
         
@@ -71,7 +71,7 @@ $mail->Username = "campoalegresangil@gmail.com";
 $mail->Password = "6203222ags";
 
 $mail->From = "user@domain.com";
-$mail->FromName = "Mi pagina web Hacienda las Marias";
+$mail->FromName = "Mi pagina web campoalegre";
 $mail->Subject = "$nombre";
 $mail->AltBody = "";
 $mail->MsgHTML($msg);
